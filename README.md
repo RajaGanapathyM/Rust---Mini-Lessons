@@ -1,1 +1,1 @@
-# Rust---Mini-Lessons
+# Rust-Mini-Lessons
