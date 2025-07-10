@@ -28,7 +28,7 @@ fn main() {
     };
 
     if borrow_book(&mut book, "Booker") {
-        println!("{} has been borrowed by {:?}", book.title,book.borrower);
+        println!("{} has been borrowed by {:?s}", book.title,book.borrower);
     } else {
         println!("{} is already borrowed.", book.title);
     }
